@@ -27,4 +27,5 @@ for imagename in os.listdir(current_pics):
 	split_name = os.path.splitext(imagename)[0]		#split the name of the image from .jpg extension
 	img.save(f'{new_pics}{split_name}.png', 'png')	#add .png extension to the name
 
+#Code completed successfully 
 print ('all done!')
