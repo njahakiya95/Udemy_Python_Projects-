@@ -7,7 +7,7 @@ This file is self-contained and allows the user to give
 an input of image files in the .jpg extension and convert
 them to .png
 
-The must give two inputs when running this file. THe first 
+They must give two inputs when running this file. The first 
 is the file that contains the images, while the second is the 
 desired name of the new folder. The folder does not have to
 exist as the program will create it. 
