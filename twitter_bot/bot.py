@@ -1,8 +1,8 @@
 import tweepy
 
 #Tweepy authoization codes and tokens
-auth = tweepy.OAuthHandler('eZHntR2D0Sc1gVkuD16fHntqA', 'J7lOeKmBHTwGVyJVvEFCZDXt4MTYNy47jk2KYa5qLZlGmrJ7Vn')
-auth.set_access_token('1336511702922301440-gATGxJ1t6y5sYD54bqgson00H5dRJX', 'IuzkS2G2XDQfQU9AJr16XEcO5ykFY7y7NBuVMkmyM4ahs')
+auth = tweepy.OAuthHandler('')
+auth.set_access_token('')
 
 api = tweepy.API(auth)
 user = api.me()
